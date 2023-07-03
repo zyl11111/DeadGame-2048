@@ -25,7 +25,7 @@ squashfs-root: $(APPIMAGE)
 	chmod +x $(APPIMAGE)
 	./$(APPIMAGE) --appimage-extract
 
-APPIMAGE_URL ?= https://github.com/mgrojo/play_2048/releases/download/v0.9.10/Play_2048-v0.9.10-x86_64.AppImage  
+APPIMAGE_URL ?= https://github.com/TKNgu/DeadGame-2048/releases/download/v2.0.3/DeadGame-2048-x86_64.AppImage
 $(APPIMAGE):
 	wget $(APPIMAGE_URL) -O $(APPIMAGE)
 
